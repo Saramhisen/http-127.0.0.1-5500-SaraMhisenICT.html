@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/SaraMhisenICT.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work and Energy - Physics Education</title>
+  <link rel="stylesheet" href="./Work and Energy - Physics Education_files/styles.css">
+  <style>
+    /* CSS to center-align text in the home page */
+    #home .overlay {
+      text-align: center;
+    }
+
+    /* CSS to make the images bigger and center them */
+    #home img, #relationship img {
+      display: block;
+      margin: 0 auto;
+      max-width: 80%; /* Adjust the size as needed */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#home">Home</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#relationship">Relationship between Work and Energy</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#joule">Work-Energy Theorem</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#energy">Forms of Energy</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#simulations">Game</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#presentations">Video</a></li>
+      <li><a href="http://127.0.0.1:5500/SaraMhisenICT.html#quizzes">Questions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="background">
+    <div class="overlay">
+      <h1>Work and Energy</h1>
+      <!-- Image element with CSS class for styling -->
+      <img src="./Work and Energy - Physics Education_files/download (1).jpg" alt="Welcome" class="big-image">
+      
+      <p>Explain the relationship between work and energy.</p>
+    </div>
+  </section>
+  
+
+  <!-- Relationship between Work and Energy Section -->
+  <section id="relationship">
+    <h2>Energy</h2>
+    <p>Energy is the ability of a system to do work. This means that the system can change itself or the world around it. 
+        A joule, is the amount of energy used when a force of one newton (1 N) is applied over a distance of one meter (1 m).      1 J = 1 N × 1 m = 1 N.m
+    </p>
+    <img src="./Work and Energy - Physics Education_files/download.png" alt="work" class="big-image">
+  </section>
+
+  <!-- Joule and Work-Energy Theorem Section -->
+  <section id="joule">
+    <h2>Work-Energy Theorem</h2>
+    <p>The work-energy theorem states that the work done (W) on a system is equal to the change in energy (ΔE) of the system. W = ΔE
+    </p>
+  </section>
+
+  <!-- Forms of Energy Section -->
+  <section id="energy">
+    <h2>Kinetic Energy</h2>
+    <p>When you do work on an object, you give it energy. For example, when you heat something up, you give it thermal energy. When you lift something up, you give it gravitational potential energy.</p>
+    <p>Kinetic energy (KE) is the energy generally associated with motion.</p>
+    <img src="./Work and Energy - Physics Education_files/Picture7.png" alt="Kinetic">
+  </section>
+
+  <!-- Interactive Simulations Section -->
+  <section id="simulations">
+    <h2>Game</h2>
+    <p>Quizzes</p>
+    <!-- Add interactive simulations here -->
+    <iframe src="./Work and Energy - Physics Education_files/join.html" frameborder="0" width="100%" height="600"></iframe>
+  </section>
+
+  <!-- Multimedia Presentations Section -->
+  <section id="presentations">
+    <h2><video></video></h2>
+    <p>Watch the video to learn about work and energy:</p>
+    <!-- Add multimedia presentations here -->
+    <iframe width="560" height="315" src="./Work and Energy - Physics Education_files/watch.html" frameborder="0" allowfullscreen=""></iframe>
+  </section>
+
+  <!-- Quizzes and Assessments Section -->
+  <section id="quizzes">
+    <h2>Questions</h2>
+    <div class="question">
+      <img src="./Work and Energy - Physics Education_files/q1.png" alt="Question 1">
+      <button onclick="showAnswer(&#39;answer1&#39;)">Show Answer</button>
+      <img id="answer1" src="./Work and Energy - Physics Education_files/a1.png" alt="Answer 1" style="display: none;">
+    </div>
+    <div class="question">
+      <img src="./Work and Energy - Physics Education_files/q2.png" alt="Question 2">
+      <button onclick="showAnswer(&#39;answer2&#39;)">Show Answer</button>
+      <img id="answer2" src="./Work and Energy - Physics Education_files/a2.png" alt="Answer 2" style="display: none;">
+    </div>
+    <div class="question">
+      <img src="./Work and Energy - Physics Education_files/q3.png" alt="Question 3">
+      <button onclick="showAnswer(&#39;answer3&#39;)">Show Answer</button>
+      <img id="answer3" src="./Work and Energy - Physics Education_files/a3.png" alt="Answer 3" style="display: none;">
+    </div>
+  </section>
+
+  <!-- Copyright Notice -->
+  <footer>
+    <p>© Sara Mhisen</p>
+  </footer>
+
+  <script src="./Work and Energy - Physics Education_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

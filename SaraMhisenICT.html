@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work and Energy - Physics Education</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* CSS to center-align text in the home page */
+    #home .overlay {
+      text-align: center;
+    }
+
+    /* CSS to make the images bigger and center them */
+    #home img, #relationship img {
+      display: block;
+      margin: 0 auto;
+      max-width: 80%; /* Adjust the size as needed */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#relationship">Relationship between Work and Energy</a></li>
+      <li><a href="#joule">Work-Energy Theorem</a></li>
+      <li><a href="#energy">Forms of Energy</a></li>
+      <li><a href="#simulations">Game</a></li>
+      <li><a href="#presentations">Video</a></li>
+      <li><a href="#quizzes">Questions</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="background">
+    <div class="overlay">
+      <h1>Work and Energy</h1>
+      <!-- Image element with CSS class for styling -->
+      <img src="download (1).jpg" alt="Welcome" class="big-image">
+      
+      <p>Explain the relationship between work and energy.</p>
+    </div>
+  </section>
+  
+
+  <!-- Relationship between Work and Energy Section -->
+  <section id="relationship">
+    <h2>Energy</h2>
+    <p>Energy is the ability of a system to do work. This means that the system can change itself or the world around it. 
+        A joule, is the amount of energy used when a force of one newton (1 N) is applied over a distance of one meter (1 m).      1 J = 1 N × 1 m = 1 N.m
+    </p>
+    <img src="download.png" alt="work" class="big-image">
+  </section>
+
+  <!-- Joule and Work-Energy Theorem Section -->
+  <section id="joule">
+    <h2>Work-Energy Theorem</h2>
+    <p>The work-energy theorem states that the work done (W) on a system is equal to the change in energy (ΔE) of the system. W = ΔE
+    </p>
+  </section>
+
+  <!-- Forms of Energy Section -->
+  <section id="energy">
+    <h2>Kinetic Energy</h2>
+    <p>When you do work on an object, you give it energy. For example, when you heat something up, you give it thermal energy. When you lift something up, you give it gravitational potential energy.</p>
+    <p>Kinetic energy (KE) is the energy generally associated with motion.</p>
+    <img src="Picture7.png" alt="Kinetic">
+  </section>
+
+  <!-- Interactive Simulations Section -->
+  <section id="simulations">
+    <h2>Game</h2>
+    <p>Quizzes</p>
+    <!-- Add interactive simulations here -->
+    <iframe src="https://quizizz.com/join?gc=67716320" frameborder="0" width="100%" height="600"></iframe>
+  </section>
+
+  <!-- Multimedia Presentations Section -->
+  <section id="presentations">
+    <h2><Video></Video></h2>
+    <p>Watch the video to learn about work and energy:</p>
+    <!-- Add multimedia presentations here -->
+    <video width="560" height="315" controls>
+      <source src="Work and Energy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      </section>
+
+  <!-- Quizzes and Assessments Section -->
+  <section id="quizzes">
+    <h2>Questions</h2>
+    <div class="question">
+      <img src="q1.png" alt="Question 1">
+      <button onclick="showAnswer('answer1')">Show Answer</button>
+      <img id="answer1" src="a1.png" alt="Answer 1" style="display: none;">
+    </div>
+    <div class="question">
+      <img src="q2.png" alt="Question 2">
+      <button onclick="showAnswer('answer2')">Show Answer</button>
+      <img id="answer2" src="a2.png" alt="Answer 2" style="display: none;">
+    </div>
+    <div class="question">
+      <img src="q3.png" alt="Question 3">
+      <button onclick="showAnswer('answer3')">Show Answer</button>
+      <img id="answer3" src="a3.png" alt="Answer 3" style="display: none;">
+    </div>
+  </section>
+
+  <!-- Copyright Notice -->
+  <footer>
+    <p>&copy; Sara Mhisen</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

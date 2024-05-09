@@ -1,0 +1,113 @@
+/* General Styles */
+
+body {
+  font-family: 'Lato', Lato, Lato-Nunito;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #b4d2eb;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #b4c8e1;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styles */
+
+section {
+  padding: 50px 20px;
+}
+
+.background {
+  background-color: #fff;
+  color: #333;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+/* Heading Styles */
+
+h1, h2 {
+  color: #333;
+}
+
+/* Paragraph Styles */
+
+p {
+  color: #555;
+}
+
+/* Button Styles */
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Question Styles */
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question img {
+  max-width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 30px 10px;
+  }
+}
+.big-image {
+  width: 55%; 
+  height: auto; 
+}
+.big-image {
+  width: 50%; 
+  height: auto;
